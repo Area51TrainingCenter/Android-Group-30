@@ -1,0 +1,9 @@
+<resources>
+
+    <!--
+    name = a la llave para llamar el texto
+    lo que se encuentra entre el signo mayor y menor es el valor
+    de la llave
+    -->
+    <string name="app_name">Clase-01</string>
+</resources>
