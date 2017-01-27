@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Mod1Class5</string>
+    <string name="terminos">Acepto los términos y condiciones</string>
+    <string name="procesar">Procesar</string>
+    <string name="masculino">Masculino</string>
+    <string name="femenino">Femenino</string>
+    <string name="nombres">Nombres</string>
+</resources>
