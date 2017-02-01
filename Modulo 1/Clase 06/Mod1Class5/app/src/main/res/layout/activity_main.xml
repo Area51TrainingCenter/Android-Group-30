@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.jcodee.mod1class5.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <Spinner
+            android:id="@+id/spEstadoCivil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/estado_civil"></Spinner>
+
+        <EditText
+            android:id="@+id/etNombres"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/nombres"
+            android:inputType="text" />
+        <!-- inputType define el tipo de teclado a mostrar al usuario -->
+
+        <!-- RadioGroup asocia todos los radioButton que se encuentren
+         dentro para poder seleccionar solamente una opción -->
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rbMasculino"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:text="@string/masculino" />
+
+            <RadioButton
+                android:id="@+id/rbFemenino"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:text="@string/femenino" />
+        </RadioGroup>
+
+        <CheckBox
+            android:id="@+id/cbTerminos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/terminos" />
+
+        <Button
+            android:id="@+id/btnProcesar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/procesar" />
+    </LinearLayout>
+</FrameLayout>
