@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jcodee.clase07">
+
+    <!--
+     Asignamos el permiso de internet
+     Si se escribe manualmente, deberá de respetar la sintaxis de
+     mayuscula y minuscula
+    -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!--
+     Agregamos en la propiedad name la clase de aplicacion
+     para sobreescribir el inicio
+      Solamente se puede tener una clase de aplicación por proyecto
+    -->
+    <application
+        android:name=".aplicacion.Clase07App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".GaleriaActivity" />
+        <activity android:name=".DetalleActivity"></activity>
+    </application>
+
+</manifest>
