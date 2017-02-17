@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Clase2</string>
+    <string name="login">Iniciar Sesión</string>
+    <string name="correo">Correo</string>
+    <string name="contrasenia">Contraseña</string>
+    <string name="rep_contrasenia">Repetir Contraseña</string>
+    <string name="nombre">Nombre</string>
+    <string name="registrar">Registrar</string>
+    <string name="mascota">Mascota</string>
+    <string name="macho">Macho</string>
+    <string name="hembra">Hembra</string>
+    <string name="notificaciones">Recibir Notificaciones</string>
+    <string name="listar">Mis Mascotas</string>
+</resources>
