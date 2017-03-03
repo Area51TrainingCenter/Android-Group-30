@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Clase 05</string>
+    <string name="text_titulo">Titulo</string>
+    <string name="text_latitud">Latitud</string>
+    <string name="text_descripcion">Descripción</string>
+    <string name="text_longitud">Longitud</string>
+    <string name="text_registrar">Registrar</string>
+    <!-- AREA51 clave area5100 -->
+    <string name="api_maps">AIzaSyAqCfV71SvxdhyjUgEiEwBPY5y2ybfHezc</string>
+</resources>
