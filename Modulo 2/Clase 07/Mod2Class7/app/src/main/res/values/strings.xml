@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Mod2Class7</string>
+
+    <string name="api_key">AIzaSyDAsP1-AfsBsQLnWws6EUaboODyLjwTS1w</string>
+    <string name="text_latitud">Latitud</string>
+    <string name="text_longitud">Longitud</string>
+    <string name="buscar">Buscar</string>
+</resources>
