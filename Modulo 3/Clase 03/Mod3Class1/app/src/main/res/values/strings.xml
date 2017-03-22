@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Mod3Class1</string>
+    <string name="todo">TODO</string>
+    <string name="nombre">Nombre</string>
+    <string name="direccion">Dirección</string>
+    <string name="correo">Correo</string>
+    <string name="usuario">Usuario</string>
+    <string name="albums">Albums</string>
+</resources>
