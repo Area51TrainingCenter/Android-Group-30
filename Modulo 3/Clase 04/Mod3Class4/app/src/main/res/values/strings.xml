@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Mod3Class4</string>
+    <string name="value1">Value 1</string>
+    <string name="value2">Value 2</string>
+    <string name="divide">Divide</string>
+    <string name="multiply">Multiply</string>
+    <string name="sustract">Sustract</string>
+    <string name="add">Add</string>
+</resources>
